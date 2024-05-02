@@ -276,10 +276,10 @@ a{
 }
 
 /* Estilos de una noticia individual*/
-.noticias{
-    width: 95%;
-    height: 95%;
-    margin: 5px;
+
+.noticia{
+    margin-left: 10dvw;
+    margin-right: 10dvw;
     padding: 2px;
     border-radius: 5px;
     background-color: whitesmoke;
@@ -333,13 +333,15 @@ a{
 
 .noticia_fin{
     font-size: medium;
-    width: 100%;
     text-align: left;
-    margin: 5px;
+   
     padding: 5px;
     font-style: italic;
     text-decoration: none;
     color: whitesmoke;
+    margin-left: 10dvw;
+    margin-right: 10dvw;
+
 }
 
 .noticia_fin > a{
@@ -400,6 +402,95 @@ a{
     width: 100%;
     object-fit: cover;
 }
+
+/* Estiulos del Formulario*/
+.titulo_form_socio{
+    text-align: center;
+    color: whitesmoke;
+    background-color: #1d293e;
+    font-size:medium;
+    font-weight: bold;
+}
+
+.form_socio{
+    margin-left: 10dvw;
+    margin-right: 10dvw;
+    background-color: whitesmoke;
+    border-style:none;
+    border-radius: 5px;
+    padding: 2%;
+    display: flex;
+}
+
+.form_enviado{
+    margin-left: 10dvw;
+    margin-right: 10dvw;
+    background-color: whitesmoke;
+    border-style:none;
+    border-radius: 5px;
+    padding: 2%;
+
+}
+
+input{
+    width: 100%;
+    font-size: 15px;
+    display: inline-block;
+    padding: 0.5vw;
+    margin: 0.5vw;
+    border: 1vw;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+ input[type="radio"]{
+    width: fit-content;
+ }
+
+ input[type="checkbox"]{
+    width: fit-content;
+ }
+
+ #enviar{
+    text-align: center;
+ }
+ input[type="submit"]{
+    width: 50%;
+    background-color:#1d293e;
+    color: whitesmoke;
+    border: none;
+    font-weight: bold;
+   }
+
+label{
+    font-weight: bold;
+    width: 100%;
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 0.5vw;
+    border: 1vw;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+
+fieldset{
+    border-style: none;
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+    font-size: 15px;
+}
+
+ button{
+    
+    background-color:#003391;
+    color: whitesmoke;
+    border: none;
+    font-weight: bold;
+ }
+
 
 /* Estilos de Footer*/
 .item_footer{
