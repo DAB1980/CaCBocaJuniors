@@ -32,7 +32,7 @@
     }
     .noticias_index{
         grid-template: 1fr 1fr / 1fr;
-    }
+       }
     .resultados_index{
         grid-template: 1fr 1fr / 1fr 1fr;
     }
@@ -72,6 +72,7 @@
     }
     .noticias_index{
         grid-template: 1fr / 1fr 1fr;
+     
     }
     .resultados_index{
         grid-template: 1fr / 1fr 1fr 1fr 1fr;
@@ -189,6 +190,16 @@ nav li a{
     align-content: center;
     text-align: center;
     background-color: gainsboro;
+}
+.noticias_titulo{
+    background-color:#003391;
+    color: white;
+    text-align: center; 
+    font-size: medium;
+    font-weight: bold;
+    width: 100%;
+    margin: 0%;
+ 
 }
 
 .item_noticias_index{
