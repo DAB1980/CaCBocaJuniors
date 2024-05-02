@@ -235,6 +235,11 @@ nav li a{
     align-items: center;
 }
 
+a{
+    color: black;
+    text-decoration: none;
+}
+
 .item_noticia_img{
     width: 100%;
     text-align: center;
@@ -254,12 +259,99 @@ nav li a{
     text-align: center;
 }
 
+.item_noticia_titulo > a{
+    color: black;
+    text-decoration: none;
+}
+
 .item_noticia_copete{
     font-size: small;
     width: 100%;
     text-align: center;
 }
 
+.item_noticia_copete > a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Estilos de una noticia individual*/
+.noticias{
+    width: 95%;
+    height: 95%;
+    margin: 5px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    align-items: center;
+}
+
+.noticia_fecha{
+    font-size: medium;
+    width: 100%;
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    font-style: italic;
+    
+}
+
+.noticia_titulo{
+    font-size:large;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.noticia_copete{
+    font-size: medium;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    margin: 5px;
+    padding: 5px;
+}
+
+.noticia_texto{
+    font-size: medium;
+    width: 100%;
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+}
+
+.noticia_imagen{
+    width: 80%;
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.noticia_fin{
+    font-size: medium;
+    width: 100%;
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    font-style: italic;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.noticia_fin > a{
+    font-size: medium;
+    width: 100%;
+    text-align: left;
+    margin: 5px;
+    padding: 5px;
+    font-style: italic;
+    text-decoration: none;
+    color:black;
+}
 
 /* Estilos de la sección Resultados del la pagina principal*/
 .resultados_index{
