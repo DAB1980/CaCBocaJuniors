@@ -1,7 +1,10 @@
+/* Estilos para todo el sitio*/
 :root{
    padding: 2%;
    background-color:whitesmoke;
 }
+
+/* Estilos para pantallas chicas (menor a 575px) */
 @media screen and (max-width: 575px){
     .img_header_lg {
            display: none;
@@ -37,9 +40,14 @@
         grid-template: 1fr 1fr / 1fr 1fr;
     }
 
-        
+    .plantel_index{
+        grid-template-columns: 1fr 1fr ;
+    }
 }
 
+        
+
+/* Estilos para pantallas intermedias (entre 575px y 800px)*/
 @media screen and (min-width: 576px){
     .img_header_lg {
         display:inline-flex;
@@ -77,8 +85,13 @@
     .resultados_index{
         grid-template: 1fr / 1fr 1fr 1fr 1fr;
     }
+
+    .plantel_index{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
+/* Estilos para pantallas Grandes (mayor 800px)*/
 @media screen and (min-width: 801px){
     .img_header_lg {
         display:inline-flex;
@@ -114,6 +127,10 @@
     .resultados_index{
         grid-template: 1fr / 1fr 1fr 1fr 1fr;
     }
+
+    .plantel_index{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 .body{
@@ -130,6 +147,9 @@
 .banner_header{
     background-color:#003391;
 }
+
+
+/* Estilos del menu de navegación de todo el sitio*/
 
 nav {
     display: inline; 
@@ -156,7 +176,7 @@ nav li a{
     padding: 1px;
 }
 
-
+/* Estilo general del sitio como Grid */
 .contenedor{
     display: grid;
     width: auto;
@@ -173,6 +193,7 @@ nav li a{
     width: 100%;
 }
 
+/* Estilos de la sección imágen principal del la pagina principal*/
 .imagen_principal_index{
     width: 100%;
 }
@@ -182,6 +203,7 @@ nav li a{
     object-fit: cover;
 }
 
+/* Estilos de la sección Noticias, tanto de la pagina principal como de la pagina index_noticias.html*/
 .noticias_index{
     display: grid;
     width: 100%;
@@ -193,7 +215,7 @@ nav li a{
 }
 .noticias_titulo{
     background-color:#003391;
-    color: white;
+    color: whitesmoke;
     text-align: center; 
     font-size: medium;
     font-weight: bold;
@@ -211,6 +233,7 @@ nav li a{
     background-color: whitesmoke;
     align-items: center;
 }
+
 .item_noticia_img{
     width: 100%;
     text-align: center;
@@ -235,6 +258,9 @@ nav li a{
     width: 100%;
     text-align: center;
 }
+
+
+/* Estilos de la sección Resultados del la pagina principal*/
 .resultados_index{
     display: grid;
     width: 100%;
@@ -244,7 +270,7 @@ nav li a{
 
 .titulo_resultados{
     text-align: center;
-    color: white;
+    color: whitesmoke;
     background-color: #1d293e;
     font-size:medium;
 }
@@ -253,6 +279,29 @@ nav li a{
     object-fit: cover;
 }
 
+
+/* Estilos de las páginas de planteles*/
+.titulo_plantel{
+    text-align: center;
+    color: whitesmoke;
+    background-color: #1d293e;
+    font-size:medium;
+    font-weight: bold;
+}
+
+.plantel_index{
+    display: grid;
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.imagen_plantel{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Estilos de Footer*/
 .item_footer{
     background-color:#1d293e;
     color: white;
