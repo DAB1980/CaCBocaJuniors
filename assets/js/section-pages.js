@@ -15,6 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     // Cargar componentes
     
-    loadComponent('header-part', 'html_parts/index-header.html');
-    loadComponent('footer-part', 'html_parts/footer.html');
+    loadComponent('header-part', '../html_parts/section-pages-header.html');
+    loadComponent('footer-part', '../html_parts/footer.html');
   });
