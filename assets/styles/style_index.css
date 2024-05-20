@@ -223,8 +223,6 @@ nav li a{
 }
 
 .item_noticias_index{
-    width: 95%;
-    height: 95%;
     margin: 5px;
     padding: 2px;
     border-radius: 5px;
@@ -496,6 +494,10 @@ textarea{
     text-align: center; 
     grid-area: footer;
    /* height: 80px;*/
+}
+
+.footer_texto{
+    margin-bottom: 0;
 }
 
 
