@@ -133,8 +133,8 @@
     .body{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         background-color: white;
-        max-width: 1280px;;
-    
+        max-width: 1280px;
+        min-height: 100vh;
     }
 
 /* Estilos para banner del header de todo el sitio*/
@@ -398,7 +398,7 @@ a{
     object-fit: cover;
 }
 
-/* Estiulos del Formulario*/
+/* Estilos del Formulario*/
 .titulo_form_socio{
     text-align: center;
     color: whitesmoke;
@@ -408,13 +408,16 @@ a{
 }
 
 .form_socio{
-    margin-left: 10dvw;
-    margin-right: 10dvw;
-    background-color: whitesmoke;
+    background-color: rgb(204, 204, 204);
     border-style:none;
     border-radius: 5px;
     padding: 2%;
     display: flex;
+    margin: 2rem 10dvw;
+}
+
+.form-enviado-section{
+    min-height: calc(100vh - 171px - 72px);
 }
 
 .form_enviado{

@@ -15,7 +15,7 @@ form.addEventListener('submit', (e) =>{
         return alert("Campos obligatorios incompletos")
     }
 
-    sessionStorage.setItem("registered", true);
+    sessionStorage.setItem("registered", JSON.stringify({fname, lname}));
     window.location.href = "./form_enviado.html";
  
 })

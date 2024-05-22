@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const urlParams = new URLSearchParams(window.location.search);
             const noticia = data.find(item => item.id === urlParams.get('id'))
 
+            document.title = noticia.title
+
             const fechaNoticia = document.getElementById('fecha_noticia')
             fechaNoticia.textContent = `${noticia.date} | ${noticia.category}`
 
