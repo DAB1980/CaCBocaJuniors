@@ -512,5 +512,12 @@ textarea{
     object-fit: cover; 
 }
 
+.tabla_bombonera{
+    display: inline-flex;
+    height: 15%;
+    padding: 0,5vw;
+    margin: 0.5vw;
+ }
+
 
 
