@@ -17,28 +17,31 @@
         <div class="item_contenido">
             <div class="titulo_form_socio">Quiero Ser Socio <i class="fa-regular fa-heart"><i class="fa-regular fa-futbol"></i></i></div>
             <div class="form_socio">
-                <form action="/html_form/form_enviado.html">
+                <form action="/html_form/form_enviado.html" id="associate-form">
                     <fieldset>
-                        <label for="fname">Formulario para solicitar asociarse</label><br><br>
-                        <label for="fname">Nombre:</label>
+                        <h5 for="fname">Formulario para solicitar asociarse</h5>
+                        <small><i>Campos obligatorios señalados con *</i></small><br><br>
+                        <label for="fname">*Nombre:</label>
                         <input type="text" name="fname" placeholder="Ingrese aqui su nombre">
-                        <label for="lname">Apellido:</label>
+                        <label for="lname">*Apellido:</label>
                         <input type="text" name="lname" placeholder="Ingrese aqui su apellido"><br><br>
-                        <label for="ldire">Dirección:</label><br><br>
-                        <label for="lcalle">Calle:</label>
+                        <h6 for="dire">Dirección:</h6><br><br>
+                        <label for="calle">*Calle:</label>
                         <input type="text" name="calle" placeholder="Ingrese aqui la calle">
-                        <label for="lnum">Número:</label>
+                        <label for="num">*Número:</label>
                         <input type="text" name="num" placeholder="Ingrese aqui el número">
-                        <label for="lciudad">Ciudad:</label>
-                        <input type="text" name="ciudad" value="Viedma">
-                        <label for="lcp">Código Postal:</label>
+                        <label for="ciudad">*Ciudad:</label>
+                        <input type="text" name="ciudad" placeholder="Ingrese aqui la ciudad">
+                        <label for="cp">*Código Postal:</label>
                         <input type="number" name="cp" placeholder="Ingrese aqui el Código Postal"><br><br>
-                        <label for="ltel">Teléfono:</label>
+                        <label for="tel">Teléfono:</label>
                         <input type="tel" name="tel" placeholder="Ingrese aqui el nro. teléfono">
-                        <label for="lfechanac">Fecha de Nacimiento:</label>
+                        <label for="fechanac">*Fecha de Nacimiento:</label>
                         <input type="date" name="fechanac">
-                        <label for="lmail">Mail:</label>
-                        <input type="email" name="mail">
+                        <label for="mail">*Mail:</label>
+                        <input type="email" name="mail" placeholder="Ingrese aqui la dirección de correo electrónico">
+                        <label for="picture">Foto de perfil:</label>
+                        <input type="file" name="picture">
                         <div id="genero">
                             Género: 
                             <input type="radio" name="genero" value="Hombre" checked>Hombre
@@ -60,7 +63,7 @@
                         <div id="deportes:">
                             Deportes que practica: 
                             <input type="checkbox" name="deportes" value="HTML">Fútbol
-                            <input type="checkbox" name="deportes" value="CSS">Básket
+                            <input type="checkbox" name="deportes" value="CSS">Básquet
                             <input type="checkbox" name="deportes" value="Boostrap">Voley
                             <input type="checkbox" name="deportes" value="Javascript">Tenis
                             <input type="checkbox" name="deportes" value="Typescript">Padle
@@ -80,6 +83,7 @@
         </div>
     </section>
     <div id="footer-part"></div>
+    <script src="../assets/js/formulario.js"></script>
     <script src="../assets/js/section-pages.js"></script>
  </body>
 </html> 
