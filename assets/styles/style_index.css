@@ -204,11 +204,13 @@ nav li a{
 /* Estilos de la sección imágen principal del la pagina principal*/
 .imagen_principal_index{
     width: 100%;
+    padding: 0;
 }
 
 .imagen_principal{
     width: 100%;
     object-fit: cover;
+    
 }
 
 /* Estilos de la sección Noticias, tanto de la pagina principal como de la pagina index_noticias.html*/
