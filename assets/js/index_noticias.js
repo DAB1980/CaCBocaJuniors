@@ -9,14 +9,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 const link = document.createElement('a');
                 link.href = `noticia.html?id=${item.id}`;
 
-                const itemNoticiaImg = document.createElement('div');
-                itemNoticiaImg.className = 'item_noticia_img';
                 
                 const imagen = document.createElement('img');
                 imagen.className = 'imagen_noticia';
                 imagen.src = item.img;
                 imagen.alt = item.alt;
-                link.appendChild(imagen);
+                
+                const itemNoticiaImg = document.createElement('div');
+                itemNoticiaImg.className = 'item_noticia_img';
+                itemNoticiaImg.appendChild(imagen)
+
+                link.appendChild(itemNoticiaImg);
 
                 // Crear y añadir el div del título
                 const itemNoticiaTitulo = document.createElement('h3');

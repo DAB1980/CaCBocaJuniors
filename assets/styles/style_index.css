@@ -235,10 +235,20 @@ nav li a{
 
 .item_noticias_index{
     margin: 5px;
-    padding: 2px;
     border-radius: 5px;
     background-color: whitesmoke;
     align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.item_noticias_index:hover img{
+    transform: scale(1.1);
+}
+
+.item_noticias_index a{
+    text-decoration: none;
+    color: #000;
 }
 
 a{
@@ -249,8 +259,12 @@ a{
 .item_noticia_img{
     width: 100%;
     text-align: center;
-    margin: 2px;
-    padding: 2px;
+    overflow: hidden;
+}
+
+.item_noticia_img img{
+    border-radius: 5px;
+    transition: all 0.5s;
 }
 
 .imagen_noticia{
@@ -263,11 +277,6 @@ a{
     font-weight: bold;
     width: 100%;
     text-align: center;
-}
-
-.item_noticia_titulo > a{
-    color: black;
-    text-decoration: none;
 }
 
 .item_noticia_copete{
