@@ -516,6 +516,7 @@ textarea{
     margin-bottom: 0;
 }
 
+/* Estilos de Carrusel*/
 .carousel-item {
     height: 30em; 
 }
@@ -525,5 +526,46 @@ textarea{
     object-fit: cover; 
 }
 
+/* Estilos Corazón */
+
+/* Animación */
+
+@keyframes beat {
+    0%, 50%, 100% { transform: scale(0.75, 0.75); }
+    30%, 80% { transform: scale(0.92, 0.95); }
+  }
+
+.heart{
+    position:relative;
+    width: 100px;
+    height: 90px;
+    animation: 1.5s ease 0s infinite beat;
+}
+.heart:before,
+.heart:after{
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 10px;
+    width: 50px;
+    height: 80px;
+    background: #fc2e5a;
+  
+    border-radius: 25px 25px 0 0;
+    transform: rotate(-45deg);
+            transform-origin: 0 100%;
+}
+.heart:after{
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin :100% 100%;
+}
+
+.corazon{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
