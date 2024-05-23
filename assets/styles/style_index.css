@@ -221,8 +221,8 @@ nav li a{
     min-width: 250px;
     align-content: center;
     text-align: center;
-    background-color: gainsboro;
-    margin: 2rem auto;
+    background-color:white;
+    margin: 0 auto;
 }
 .noticias_titulo{
     background-color:#003391;
