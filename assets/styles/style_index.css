@@ -37,6 +37,7 @@
        }
     .resultados_index{
         grid-template: 1fr 1fr / 1fr 1fr;
+        padding: 0 2%;
     }
 
     .plantel_index{
@@ -81,6 +82,7 @@
     }
     .resultados_index{
         grid-template: 1fr / 1fr 1fr 1fr 1fr;
+        padding: 0 2%;
     }
 
     .plantel_index{
@@ -122,6 +124,7 @@
     }
     .resultados_index{
         grid-template: 1fr / 1fr 1fr 1fr 1fr;
+        padding: 0 3%;
     }
     
     .plantel_index{
@@ -130,11 +133,12 @@
 }
 
 /* Estilos para body de todo el sitio*/
-    .body{
+    body{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: white;
-        max-width: 1280px;
+        background-color:whitesmoke;
         min-height: 100vh;
+        display: flex;
+        flex-direction: column;
     }
 
 /* Estilos para banner del header de todo el sitio*/
@@ -142,6 +146,7 @@
 
 .item_header{
     grid-area: header;
+    background-color:#003391;
 }
 
 .banner_header{
@@ -185,6 +190,11 @@ nav li a{
     /*gap: 20px;*/
 }
 
+.layout{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-inline: 2rem;
+}
 
 .item_contenido{
     grid-area: contenido;
@@ -210,6 +220,7 @@ nav li a{
     align-content: center;
     text-align: center;
     background-color: gainsboro;
+    margin: 2rem auto;
 }
 .noticias_titulo{
     background-color:#003391;
@@ -356,6 +367,7 @@ a{
     width: 100%;
     height: auto;
     background-color: #003391;
+    padding: 0 10%;
 }
 
 .titulo_resultados{
@@ -413,7 +425,8 @@ a{
     border-radius: 5px;
     padding: 2%;
     display: flex;
-    margin: 2rem 10dvw;
+    margin: 2rem auto;
+    max-width: 50rem;
 }
 
 .form-enviado-section{
